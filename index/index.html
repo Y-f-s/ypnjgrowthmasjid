@@ -51,7 +51,7 @@
                     <a href="#media-lokasi" class="text-gray-600 hover:text-emerald-600 transition">Media & Lokasi</a>
                 </div>
                 <div>
-                    <a href="#form-registrasi" class="bg-emerald-600 text-white px-5 md:px-6 py-2.5 rounded-full font-semibold shadow-md hover:bg-emerald-700 hover:shadow-lg transition-all transform hover:-translate-y-0.5 text-sm md:text-base">Konfirmasi</a>
+                    <a href="#donasi" class="bg-emerald-600 text-white px-5 md:px-6 py-2.5 rounded-full font-semibold shadow-md hover:bg-emerald-700 hover:shadow-lg transition-all transform hover:-translate-y-0.5 text-sm md:text-base">Mulai Donasi</a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                             Syiar Dakwah & <br> Update Harian
                         </h2>
                         <p class="text-lg text-gray-300 mb-8 max-w-lg mx-auto">
-                            Ikuti berbagai kegiatan inspiratif, program pemuda, serta laporan penyaluran Growth Masjid Daim secara transparan kunjungi Instagram resmi kami.
+                            Ikuti berbagai kegiatan inspiratif, kajian rutin, dan laporan penyaluran Growth Masjid Daim secara transparan di Instagram resmi kami.
                         </p>
                         <a href="https://www.instagram.com/ypnj.official/" target="_blank" class="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-lg shadow-pink-900/50">
                             <i class="fab fa-instagram text-2xl mr-3"></i> Kunjungi @ypnj.official
@@ -118,7 +118,7 @@
                             Sinergi Dakwah Kampus
                         </h2>
                         <p class="text-lg text-gray-300 mb-8 max-w-lg mx-auto">
-                            Berjalan beriringan bersama LDK Fikri PNJ untuk membangun generasi madani melalui berbagai program keislaman, pembinaan dan kegiatan masjid.
+                            Berjalan beriringan bersama LDK Fikri PNJ untuk membangun generasi madani melalui berbagai program keislaman dan pembinaan.
                         </p>
                         <a href="https://www.instagram.com/ldk_fikri_pnj/" target="_blank" class="inline-flex items-center bg-gradient-to-r from-teal-600 to-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all shadow-lg shadow-teal-900/50">
                             <i class="fab fa-instagram text-2xl mr-3"></i> Kunjungi @ldk_fikri_pnj
@@ -239,7 +239,7 @@
                         <i class="fas fa-hard-hat"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-3">Pembangunan & Renovasi</h3>
-                    <p class="text-gray-600 leading-relaxed text-sm">Fokus utama pada penyelesaian pembangunan area masjid yang terkendala, dilanjutkan dengan pemeliharaan fasilitas demi kenyamanan ibadah.</p>
+                    <p class="text-gray-600 leading-relaxed text-sm">Fokus utama pada penyelesaian pembangunan area masjid yang terkendala, dilanjutkan dengan pemeliharaan fasilitas demi kenyamanan ibadah jamaah.</p>
                 </div>
                 <div class="bg-gray-50 rounded-[2rem] p-8 shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
                     <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center text-blue-600 text-3xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
@@ -260,129 +260,127 @@
     </section>
 
     <section id="donasi" class="py-20 bg-gray-50 border-b border-gray-200">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-br from-emerald-900 to-emerald-800 rounded-[3rem] p-8 md:p-12 shadow-2xl relative overflow-hidden">
-                <div class="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-emerald-700 rounded-full blur-3xl opacity-40"></div>
-                <div class="absolute bottom-0 left-0 -mb-10 -ml-10 w-40 h-40 bg-gold-500 rounded-full blur-3xl opacity-20"></div>
-                
-                <div class="text-center mb-12 relative z-10">
-                    <h2 class="text-3xl font-bold text-white mb-3">1. Salurkan Kebaikan Anda</h2>
-                    <p class="text-emerald-100 font-medium">Lakukan Transfer Bank atau scan QRIS di bawah ini.</p>
-                </div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Salurkan Kebaikan Anda</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Ikuti 3 langkah mudah di bawah ini. Pilih nominal terlebih dahulu agar sistem dapat membuatkan kode unik verifikasi untuk Anda.</p>
+            </div>
 
-                <div class="grid md:grid-cols-2 gap-8 relative z-10">
-                    <div class="bg-white rounded-3xl p-8 shadow-xl flex flex-col justify-between">
+            <form id="donasiForm" class="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-[0_15px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-emerald-500 to-teal-400"></div>
+
+                <div class="mb-10">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-extrabold text-lg mr-4 border border-emerald-200">1</div>
+                        <h3 class="text-2xl font-bold text-gray-800">Isi Data & Nominal Donasi</h3>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
                         <div>
-                            <div class="flex items-center justify-between mb-6 border-b border-gray-100 pb-4">
-                                <h3 class="font-bold text-gray-800 text-lg flex items-center"><i class="fas fa-university text-emerald-600 mr-2"></i> Transfer Bank</h3>
-                                <span class="text-xs font-bold bg-emerald-100 text-emerald-700 px-2 py-1 rounded">BSI</span>
-                            </div>
-                            <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 relative overflow-hidden">
-                                <div class="absolute top-0 left-0 w-1 h-full bg-emerald-500"></div>
-                                <p class="text-xs text-gray-500 font-bold tracking-wide uppercase mb-2">Nomor Rekening</p>
-                                <div class="flex justify-between items-center">
-                                    <p class="text-3xl font-extrabold text-gray-900 tracking-wider font-mono" id="rek-number">2020206673</p>
-                                    <button onclick="copyToClipboard()" class="bg-emerald-100 text-emerald-700 w-10 h-10 rounded-xl flex items-center justify-center hover:bg-emerald-600 hover:text-white transition-all shadow-sm" title="Salin Rekening">
-                                        <i class="far fa-copy"></i>
-                                    </button>
-                                </div>
-                                <p class="text-sm font-bold text-gray-700 mt-4">a.n Pemuda Nusantara Juara</p>
-                            </div>
-                            <p id="copy-toast" class="text-xs text-emerald-600 font-bold mt-3 hidden text-center transition-all"><i class="fas fa-check-circle mr-1"></i> Berhasil disalin!</p>
-                            
-                            <a href="#form-registrasi" class="mt-5 w-full flex items-center justify-center bg-emerald-50 text-emerald-700 py-3 rounded-xl font-bold hover:bg-emerald-100 border border-emerald-200 transition-colors shadow-sm animate-pulse-slow">
-                                <i class="fas fa-hand-holding-usd mr-2"></i> Pilih Nominal Donasi Di Sini <i class="fas fa-arrow-down ml-2"></i>
-                            </a>
+                            <label class="block text-sm font-bold text-gray-700 mb-2">Tanggal Transfer <span class="text-red-500">*</span></label>
+                            <input type="date" id="tanggal" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-gray-50 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-2">Nama Donatur <span class="text-red-500">*</span></label>
+                            <input type="text" id="nama" placeholder="Contoh: Hamba Allah" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-gray-50 transition-colors">
+                        </div>
+                    </div>
+
+                    <div class="mb-2">
+                        <label class="block text-sm font-bold text-gray-700 mb-3">Pilih Nominal Donasi <span class="text-red-500">*</span></label>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3" id="nominalButtons">
+                            <button type="button" onclick="pilihNominal(50000, this)" class="nom-btn w-full py-3 border border-emerald-200 text-emerald-700 rounded-xl font-bold hover:bg-emerald-50 transition-all bg-white shadow-sm">Rp 50.000</button>
+                            <button type="button" onclick="pilihNominal(100000, this)" class="nom-btn w-full py-3 border border-emerald-200 text-emerald-700 rounded-xl font-bold hover:bg-emerald-50 transition-all bg-white shadow-sm">Rp 100.000</button>
+                            <button type="button" onclick="pilihNominal(200000, this)" class="nom-btn w-full py-3 border border-emerald-200 text-emerald-700 rounded-xl font-bold hover:bg-emerald-50 transition-all bg-white shadow-sm">Rp 200.000</button>
+                            <button type="button" onclick="pilihNominal(500000, this)" class="nom-btn w-full py-3 border border-emerald-200 text-emerald-700 rounded-xl font-bold hover:bg-emerald-50 transition-all bg-white shadow-sm">Rp 500.000</button>
+                            <button type="button" onclick="pilihNominal(1000000, this)" class="nom-btn w-full py-3 border border-emerald-200 text-emerald-700 rounded-xl font-bold hover:bg-emerald-50 transition-all bg-white shadow-sm">Rp 1 Juta</button>
+                            <button type="button" onclick="tampilNominalLainnya(this)" class="nom-btn w-full py-3 border border-emerald-200 text-emerald-700 rounded-xl font-bold hover:bg-emerald-50 transition-all bg-white shadow-sm">Lainnya</button>
                         </div>
                         
-                        <a href="https://wa.me/6287787187428?text=Assalamu'alaikum%20Admin%20YPNJ,%20saya%20ingin%20konfirmasi%20donasi%20untuk%20Growth%20Masjid%20Daim" target="_blank" class="mt-4 w-full flex items-center justify-center bg-[#25D366] text-white py-3.5 rounded-xl font-bold hover:bg-[#1ebd5a] transition-colors shadow-lg shadow-green-200">
-                            <i class="fab fa-whatsapp text-xl mr-2"></i> Chat Admin YPNJ
-                        </a>
+                        <div id="inputLainnya" class="hidden relative mt-4">
+                            <span class="absolute inset-y-0 left-0 pl-4 flex items-center font-bold text-gray-500">Rp</span>
+                            <input type="number" id="nominalCustom" placeholder="Masukkan nominal (contoh: 150000)" class="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-gray-50 text-lg font-bold" oninput="hitungTotalCustom(this.value)">
+                        </div>
+                        <input type="hidden" id="nominalValue" required>
+                    </div>
+                </div>
+
+                <div id="paymentSection" class="hidden opacity-0 transition-opacity duration-700 mb-10 pt-6 border-t border-gray-100">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-extrabold text-lg mr-4 border border-emerald-200">2</div>
+                        <h3 class="text-2xl font-bold text-gray-800">Transfer Pembayaran</h3>
                     </div>
 
-                    <div class="bg-emerald-950/40 backdrop-blur-sm rounded-3xl p-8 border border-emerald-700/50 text-center flex flex-col justify-center items-center">
-                        <div class="bg-white px-4 py-1.5 rounded-full mb-4 inline-flex items-center shadow-md">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_QRIS.svg" alt="QRIS" class="h-5">
+                    <div class="bg-gradient-to-br from-emerald-900 to-emerald-800 rounded-3xl p-8 text-center mb-8 shadow-xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gold-500 rounded-full blur-3xl opacity-20"></div>
+                        <p class="text-emerald-100 font-medium mb-2 relative z-10">Total yang harus ditransfer:</p>
+                        
+                        <div class="flex flex-col items-center justify-center mb-5 relative z-10">
+                            <p class="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3" id="totalTransferText">Rp 0</p>
+                            
+                            <button onclick="copyTotalDonasi()" type="button" class="inline-flex items-center text-sm font-bold bg-emerald-700/80 hover:bg-emerald-600 text-white px-5 py-2 rounded-full transition-all border border-emerald-500/50 shadow-sm active:scale-95">
+                                <i class="far fa-copy mr-2"></i> Salin Nominal
+                            </button>
+                            <p id="copy-total-toast" class="text-sm text-gold-300 font-bold mt-2 hidden transition-all"><i class="fas fa-check-circle mr-1"></i> Berhasil disalin!</p>
                         </div>
-                        <div class="relative w-full flex justify-center group">
-                            <img src="logo-qris.jpeg" alt="QRIS Pembayaran" class="w-full h-auto max-w-[220px] rounded-xl object-contain shadow-2xl border-4 border-white transition-transform group-hover:scale-105">
+
+                        <div class="inline-flex items-center bg-emerald-950/50 px-4 py-2 rounded-full border border-emerald-700/50 text-sm relative z-10">
+                            <i class="fas fa-check-circle text-gold-400 mr-2"></i>
+                            <span class="text-emerald-50">Termasuk kode unik <strong id="kodeUnikSpan" class="text-gold-300"></strong> untuk verifikasi & maintenance </span>
                         </div>
-                        <div class="mt-6 text-center">
-                            <a href="logo-qris.jpeg" download="QRIS_Growth_Masjid.jpeg" class="inline-flex items-center bg-white/20 hover:bg-white/30 text-white border border-white/50 px-5 py-2 rounded-full text-sm font-semibold transition-all">
-                                <i class="fas fa-download mr-2"></i> Download QRIS
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 flex flex-col justify-center">
+                            <div class="flex items-center justify-between mb-4 pb-4 border-b border-gray-200">
+                                <h4 class="font-bold text-gray-800 flex items-center"><i class="fas fa-university text-emerald-600 mr-2"></i> Transfer Bank</h4>
+                                <span class="text-xs font-bold bg-white text-emerald-700 px-3 py-1 rounded-md border border-gray-200 shadow-sm">BSI</span>
+                            </div>
+                            <p class="text-xs text-gray-500 font-bold tracking-wider uppercase mb-1">Nomor Rekening</p>
+                            <div class="flex justify-between items-center bg-white p-3 rounded-xl border border-gray-200 mb-3">
+                                <p class="text-2xl font-extrabold text-gray-900 tracking-wider font-mono" id="rek-number">2020206673</p>
+                                <button onclick="copyToClipboard()" type="button" class="bg-emerald-100 text-emerald-700 w-10 h-10 rounded-lg flex items-center justify-center hover:bg-emerald-600 hover:text-white transition-all active:scale-95" title="Salin Rekening">
+                                    <i class="far fa-copy"></i>
+                                </button>
+                            </div>
+                            <p class="text-sm font-bold text-gray-700">a.n Yayasan Pemuda Nusantara Juara</p>
+                            <p id="copy-toast" class="text-xs text-emerald-600 font-bold mt-2 hidden transition-all"><i class="fas fa-check-circle mr-1"></i> Berhasil disalin!</p>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 flex flex-col items-center justify-center text-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Logo_QRIS.svg" alt="QRIS" class="h-6 mb-4">
+                            <img src="logo-qris.jpeg" alt="QRIS Pembayaran" class="w-full max-w-[160px] rounded-xl object-contain shadow-md border-2 border-white mb-4 hover:scale-105 transition-transform">
+                            <a href="logo-qris.jpeg" download="QRIS_Growth_Masjid.jpeg" class="text-xs font-bold text-emerald-600 hover:text-emerald-800 flex items-center">
+                                <i class="fas fa-download mr-1"></i> Download QRIS Mitra YPNJ
                             </a>
-                            <p class="text-xs text-emerald-200 mt-4 font-medium px-4">
-                                *Terdapat program kerjasama QRIS. Cukup lampirkan bukti transfer pada form konfirmasi di bawah.
-                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="form-registrasi" class="py-16 bg-white border-b border-gray-200">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="text-3xl font-bold text-gray-900">2. Konfirmasi Donasi</h2>
-                <p class="text-gray-600 mt-2">Isi form ini, lampirkan bukti transfer, dan sistem akan otomatis menyimpan data & mengarahkan Anda ke WhatsApp Admin.</p>
-            </div>
-
-            <form id="donasiForm" class="bg-gray-50 rounded-3xl p-8 md:p-10 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.05)] border border-gray-100">
-                
-                <div class="grid md:grid-cols-2 gap-6 mb-6">
-                    <div>
-                        <label class="block text-sm font-bold text-gray-700 mb-2">Tanggal Transfer <span class="text-red-500">*</span></label>
-                        <input type="date" id="tanggal" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-white">
+                <div id="uploadSection" class="hidden opacity-0 transition-opacity duration-700 pt-6 border-t border-gray-100">
+                    <div class="flex items-center mb-6">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-extrabold text-lg mr-4 border border-emerald-200">3</div>
+                        <h3 class="text-2xl font-bold text-gray-800">Upload Bukti & Konfirmasi</h3>
                     </div>
-                    <div>
-                        <label class="block text-sm font-bold text-gray-700 mb-2">Nama Donatur <span class="text-red-500">*</span></label>
-                        <input type="text" id="nama" placeholder="Contoh: Hamba Allah" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-white">
+
+                    <div class="mb-6">
+                        <label class="block text-sm font-bold text-gray-700 mb-2">Upload Bukti Transfer <span class="text-red-500">*</span></label>
+                        <input type="file" id="bukti" accept="image/*,application/pdf" required class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-gray-50 text-sm file:mr-4 file:py-2.5 file:px-5 file:rounded-full file:border-0 file:text-sm file:font-bold file:bg-emerald-100 file:text-emerald-700 hover:file:bg-emerald-200 transition-all cursor-pointer">
+                    </div>
+
+                    <div class="mb-8">
+                        <label class="block text-sm font-bold text-gray-700 mb-2">Titipan Doa / Keterangan (Opsional)</label>
+                        <textarea id="keterangan" rows="3" placeholder="Contoh: Sedekah atas nama orang tua..." class="w-full p-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-gray-50 resize-none"></textarea>
+                    </div>
+
+                    <button type="submit" id="btnSubmit" class="w-full bg-emerald-600 text-white font-bold text-lg py-4 rounded-xl hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/30 flex justify-center items-center transform hover:-translate-y-1">
+                        <i class="fas fa-paper-plane mr-2"></i> Kirim Form & Konfirmasi WA
+                    </button>
+                    <div id="loadingText" class="hidden text-center text-emerald-600 font-bold mt-4 animate-pulse">
+                        <i class="fas fa-spinner fa-spin mr-2"></i> Mengamankan data & mengunggah bukti...
                     </div>
                 </div>
 
-                <div class="mb-6">
-                    <label class="block text-sm font-bold text-gray-700 mb-2">Pilih Nominal <span class="text-red-500">*</span></label>
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-3" id="nominalButtons">
-                        <button type="button" onclick="pilihNominal(50000, this)" class="nom-btn w-full py-2 border border-emerald-200 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition-all bg-white">Rp 50Rb</button>
-                        <button type="button" onclick="pilihNominal(100000, this)" class="nom-btn w-full py-2 border border-emerald-200 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition-all bg-white">Rp 100Rb</button>
-                        <button type="button" onclick="pilihNominal(200000, this)" class="nom-btn w-full py-2 border border-emerald-200 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition-all bg-white">Rp 200Rb</button>
-                        <button type="button" onclick="pilihNominal(500000, this)" class="nom-btn w-full py-2 border border-emerald-200 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition-all bg-white">Rp 500Rb</button>
-                        <button type="button" onclick="pilihNominal(1000000, this)" class="nom-btn w-full py-2 border border-emerald-200 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition-all bg-white">Rp 1 Juta</button>
-                        <button type="button" onclick="tampilNominalLainnya(this)" class="nom-btn w-full py-2 border border-emerald-200 text-emerald-700 rounded-lg font-semibold hover:bg-emerald-100 transition-all bg-white">Lainnya</button>
-                    </div>
-                    
-                    <div id="inputLainnya" class="hidden relative mt-2">
-                        <span class="absolute inset-y-0 left-0 pl-3 flex items-center font-bold text-gray-500">Rp</span>
-                        <input type="number" id="nominalCustom" placeholder="Masukkan nominal dasar..." class="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-white" oninput="hitungTotalCustom(this.value)">
-                    </div>
-
-                    <div id="totalTransferBox" class="mt-4 p-4 bg-emerald-100/50 rounded-xl border border-emerald-200 hidden shadow-inner text-center">
-                        <p class="text-sm font-semibold text-gray-600 mb-1">Total yang harus ditransfer:</p>
-                        <p class="text-3xl font-extrabold text-emerald-700 tracking-tight" id="totalTransferText">Rp 0</p>
-                        <p class="text-xs text-emerald-600 mt-2 bg-emerald-100 inline-block px-3 py-1 rounded-full">
-                            <i class="fas fa-info-circle mr-1"></i> Termasuk kode unik <span id="kodeUnikSpan" class="font-bold"></span> untuk maintenance sistem
-                        </p>
-                    </div>
-                    <input type="hidden" id="nominalValue" required>
-                </div>
-
-                <div class="mb-6">
-                    <label class="block text-sm font-bold text-gray-700 mb-2">Upload Bukti Transfer <span class="text-red-500">*</span></label>
-                    <input type="file" id="bukti" accept="image/*,application/pdf" required class="w-full px-4 py-2 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-white text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-emerald-50 file:text-emerald-700">
-                </div>
-
-                <div class="mb-8">
-                    <label class="block text-sm font-bold text-gray-700 mb-2">Keterangan / Doa (Opsional)</label>
-                    <textarea id="keterangan" rows="2" placeholder="Contoh: Sedekah atas nama..." class="w-full p-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 bg-white resize-none"></textarea>
-                </div>
-
-                <button type="submit" id="btnSubmit" class="w-full bg-emerald-600 text-white font-bold text-lg py-4 rounded-xl hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/30 flex justify-center items-center">
-                    <i class="fas fa-paper-plane mr-2"></i> Kirim Form & Konfirmasi WA
-                </button>
-                <div id="loadingText" class="hidden text-center text-emerald-600 font-bold mt-4 animate-pulse">
-                    <i class="fas fa-spinner fa-spin mr-2"></i> Sedang memproses dokumen & data...
-                </div>
             </form>
         </div>
     </section>
@@ -393,7 +391,7 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Mari Istiqomah Bersama!</h2>
             <p class="text-emerald-100 text-lg mb-8 max-w-2xl mx-auto">
-                Bergabunglah dengan grup WhatsApp <span class="font-bold text-white">"Gerakan Sedekah Harian Growth Masjid Daim"</span>. Dapatkan update harian, pengingat kebaikan, dan laporan penyaluran berkala pemgembangan Masjid Daim.
+                Bergabunglah dengan grup WhatsApp <span class="font-bold text-white">"Gerakan Sedekah Harian Growth Masjid Daim"</span>. Dapatkan update harian, pengingat kebaikan, dan laporan penyaluran rutin.
             </p>
             <a href="https://chat.whatsapp.com/CvHccUihBE82npj7OovhRf" target="_blank" class="inline-flex items-center justify-center bg-white text-emerald-700 font-bold px-8 py-4 rounded-full hover:bg-gray-50 hover:scale-105 transition-all shadow-xl">
                 <i class="fab fa-whatsapp text-3xl mr-3 text-[#25D366]"></i> Gabung Komunitas Sekarang
@@ -401,7 +399,33 @@
         </div>
     </section>
 
-    <section id="transparansi" class="py-20 bg-gray-50 border-t border-b border-gray-200">
+    <section class="py-12 bg-gray-50 border-b border-gray-200 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-[0_15px_40px_-15px_rgba(0,0,0,0.1)] border border-gray-100 relative overflow-hidden transform hover:-translate-y-1 transition-all duration-300">
+                <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-gold-400 to-yellow-200"></div>
+                
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Total Donasi Terkumpul</h2>
+                
+                <div class="flex items-center justify-center gap-2 text-sm text-emerald-600 font-bold mb-6 bg-emerald-50 inline-flex px-4 py-1.5 rounded-full border border-emerald-100">
+                    <span class="relative flex h-3 w-3">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                    </span>
+                    Live Update Otomatis
+                </div>
+                
+                <div class="w-full overflow-hidden flex justify-center my-6">
+                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzFUXcjuN7RfDF57khLrj7PPxzzGD3WIDpfO-OSj5OsB2-yJXXQzIkgGQBOWdJe1Q47Tb50FfzxSDF/pubchart?oid=2045945443&format=interactive" width="100%" height="350" frameborder="0" style="max-width: 700px; border: none; min-height: 350px;"></iframe>
+                </div>
+                
+                <p class="text-xs text-gray-400 font-medium mt-4">
+                    <i class="fas fa-info-circle mr-1"></i> Data ditarik *real-time* dari sistem pencatatan bendahara.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="transparansi" class="py-20 bg-white border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
                 <div>
@@ -417,13 +441,13 @@
                 </div>
             </div>
             
-            <div class="bg-white p-2 md:p-4 rounded-[2rem] shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] border border-gray-100 overflow-hidden">
-                <iframe width="100%" height="750" src="https://lookerstudio.google.com/embed/reporting/4fe0d93f-8d8e-4458-b1ee-8855bb65aaa9/page/p_0cc27l9zqd" frameborder="0" style="border:0" allowfullscreen class="rounded-[1.5rem] bg-gray-50"></iframe>
+            <div class="bg-gray-50 p-2 md:p-4 rounded-[2rem] shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] border border-gray-100 overflow-hidden">
+                <iframe width="100%" height="750" src="https://lookerstudio.google.com/embed/reporting/4fe0d93f-8d8e-4458-b1ee-8855bb65aaa9/page/p_0cc27l9zqd" frameborder="0" style="border:0" allowfullscreen class="rounded-[1.5rem] bg-white"></iframe>
             </div>
         </div>
     </section>
 
-    <section id="media-lokasi" class="py-20 bg-white border-b border-gray-200">
+    <section id="media-lokasi" class="py-20 bg-gray-50 border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <span class="text-emerald-600 font-bold tracking-wider uppercase text-sm">Media & Lokasi</span>
@@ -432,13 +456,12 @@
             </div>
 
             <div class="grid lg:grid-cols-2 gap-8 mb-8 items-stretch">
-                
-                <div class="bg-gray-50 p-4 rounded-[2rem] border border-gray-100 shadow-lg flex flex-col">
+                <div class="bg-white p-4 rounded-[2rem] border border-gray-100 shadow-lg flex flex-col">
                     <h3 class="font-bold text-gray-800 mb-4 ml-2 flex items-center"><i class="fas fa-play-circle text-emerald-500 mr-2 text-xl"></i> Video Profil Kegiatan</h3>
                     <div class="w-full rounded-xl overflow-hidden shadow-inner bg-gray-200 flex-1 flex items-center justify-center min-h-[350px] relative">
                         <iframe class="w-full h-full absolute inset-0" src="https://drive.google.com/file/d/13OCE_lLT_Z1E8vizZsv5VrJUYvsAuELv/preview" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                     </div>
-                    <p class="text-xs text-gray-500 mt-3 text-center">*Video Kegiatan & Aktifitas Growth Masjid</p>
+                    <p class="text-xs text-gray-500 mt-3 text-center">*Video Aktifitas Kegiatan Masjid </p>
                 </div>
 
                 <div class="bg-gradient-to-br from-emerald-900 to-emerald-700 p-8 md:p-10 rounded-[2rem] border border-emerald-600 shadow-lg flex flex-col justify-center relative overflow-hidden h-full min-h-[350px] text-left">
@@ -450,7 +473,7 @@
                         <h3 class="text-2xl md:text-3xl font-bold text-white mb-6">Jazakumullah Khairan Katsiran</h3>
                         
                         <p class="text-emerald-50 mb-8 text-base leading-relaxed font-medium">
-                            Terima kasih atas wakaf dan sedekah terbaik Anda untuk pembangunan Growth Masjid Daim. Semoga menjadi amal jariyah yang tak terputus pahalanya.
+                            Terima kasih atas infaq dan sedekah terbaik Anda untuk pembangunan Growth Masjid Daim. Semoga menjadi amal jariyah yang tak terputus pahalanya.
                         </p>
                         
                         <div class="pt-6 border-t border-emerald-600/50 flex items-start">
@@ -466,31 +489,24 @@
                 </div>
             </div>
 
-            <div class="bg-gray-50 p-4 rounded-[2rem] border border-gray-100 shadow-lg mb-16">
-                <h3 class="font-bold text-gray-800 mb-4 ml-2 flex items-center"><i class="fas fa-map-marked-alt text-emerald-500 mr-2 text-xl"></i> Titik Lokasi Growth Masjid Daim</h3>
-                <div class="w-full rounded-xl overflow-hidden shadow-inner bg-gray-200">
-                    <iframe class="w-full h-[400px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4187.180413819108!2d106.81806974515928!3d-6.3717718459033925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec03434245eb%3A0xe8719c80e7df7af1!2sMasjid%20Jami'%20Darul%20Ilmi!5e1!3m2!1sid!2sid!4v1771740254694!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mt-16">
+                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-white shadow-sm hover:shadow-xl transition-all border border-gray-100 p-1">
+                    <img src="dok-1.jpeg" alt="Dokumentasi 1" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-1.jpeg'" class="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
                 </div>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 shadow-sm hover:shadow-xl transition-all border border-gray-100">
-                    <img src="dok-1.jpeg" alt="Dokumentasi 1" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-1.jpeg'" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-white shadow-sm hover:shadow-xl transition-all border border-gray-100 p-1">
+                    <img src="dok-2.jpeg" alt="Dokumentasi 2" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-2.jpeg'" class="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 shadow-sm hover:shadow-xl transition-all border border-gray-100">
-                    <img src="dok-2.jpeg" alt="Dokumentasi 2" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-2.jpeg'" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-white shadow-sm hover:shadow-xl transition-all border border-gray-100 p-1">
+                    <img src="dok-3.jpeg" alt="Dokumentasi 3" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-3.jpeg'" class="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 shadow-sm hover:shadow-xl transition-all border border-gray-100">
-                    <img src="dok-3.jpeg" alt="Dokumentasi 3" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-3.jpeg'" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-white shadow-sm hover:shadow-xl transition-all border border-gray-100 p-1">
+                    <img src="dok-4.jpeg" alt="Dokumentasi 4" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-4.jpeg'" class="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 shadow-sm hover:shadow-xl transition-all border border-gray-100">
-                    <img src="dok-4.jpeg" alt="Dokumentasi 4" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-4.jpeg'" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-white shadow-sm hover:shadow-xl transition-all border border-gray-100 p-1">
+                    <img src="dok-5.jpeg" alt="Dokumentasi 5" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-5.jpeg'" class="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
                 </div>
-                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 shadow-sm hover:shadow-xl transition-all border border-gray-100">
-                    <img src="dok-5.jpeg" alt="Dokumentasi 5" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-5.jpeg'" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-gray-200 shadow-sm hover:shadow-xl transition-all border border-gray-100">
-                    <img src="dok-6.jpeg" alt="Dokumentasi 6" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-6.jpeg'" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="group relative overflow-hidden rounded-2xl aspect-square bg-white shadow-sm hover:shadow-xl transition-all border border-gray-100 p-1">
+                    <img src="dok-6.jpeg" alt="Dokumentasi 6" onerror="this.src='https://placehold.co/600x600/e2e8f0/64748b?text=Siapkan+dok-6.jpeg'" class="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
                 </div>
             </div>
         </div>
@@ -557,7 +573,7 @@
             effect: "fade", fadeEffect: { crossFade: true }
         });
 
-        // GENERATE KODE UNIK (1 - 999) SETIAP KALI REFRESH
+        // GENERATE KODE UNIK (1 - 999)
         const kodeUnik = Math.floor(Math.random() * 999) + 1;
         document.getElementById('kodeUnikSpan').innerText = kodeUnik.toString().padStart(3, '0');
 
@@ -570,46 +586,76 @@
             });
         }
 
-        function resetTombol() {
-            let btns = document.querySelectorAll('.nom-btn');
-            btns.forEach(btn => {
-                btn.classList.remove('bg-emerald-600', 'text-white');
-                btn.classList.add('text-emerald-700');
+        // FUNGSI BARU: SALIN NOMINAL TOTAL (MURNI ANGKA)
+        function copyTotalDonasi() {
+            // Ambil angka murni tanpa Rp atau titik dari input hidden (contoh: 150123)
+            var nominalMurni = document.getElementById("nominalValue").value;
+            
+            navigator.clipboard.writeText(nominalMurni).then(function() {
+                var toast = document.getElementById("copy-total-toast");
+                toast.classList.remove("hidden"); toast.classList.add("block");
+                setTimeout(() => { toast.classList.remove("block"); toast.classList.add("hidden"); }, 2500);
             });
         }
 
-        function tampilkanBoxTotal(totalBaru) {
-            document.getElementById('totalTransferBox').classList.remove('hidden');
-            document.getElementById('totalTransferText').innerText = "Rp " + totalBaru.toLocaleString('id-ID');
-            document.getElementById('nominalValue').value = totalBaru; 
+        function resetTombol() {
+            let btns = document.querySelectorAll('.nom-btn');
+            btns.forEach(btn => {
+                btn.classList.remove('bg-emerald-600', 'text-white', 'shadow-md', 'scale-105');
+                btn.classList.add('text-emerald-700', 'bg-white', 'shadow-sm');
+            });
         }
 
-        // Ketika Tombol Nominal di Klik
+        // FUNGSI UTAMA UX
+        function tampilkanBoxTotal(totalBaru) {
+            document.getElementById('totalTransferText').innerText = "Rp " + totalBaru.toLocaleString('id-ID');
+            document.getElementById('nominalValue').value = totalBaru; 
+            
+            const paymentSec = document.getElementById('paymentSection');
+            const uploadSec = document.getElementById('uploadSection');
+            
+            paymentSec.classList.remove('hidden');
+            uploadSec.classList.remove('hidden');
+            
+            setTimeout(() => {
+                paymentSec.classList.remove('opacity-0');
+                uploadSec.classList.remove('opacity-0');
+            }, 50);
+        }
+
         function pilihNominal(nilaiDasar, btnEl) {
             resetTombol();
-            btnEl.classList.add('bg-emerald-600', 'text-white');
-            btnEl.classList.remove('text-emerald-700');
+            btnEl.classList.add('bg-emerald-600', 'text-white', 'shadow-md', 'scale-105');
+            btnEl.classList.remove('text-emerald-700', 'bg-white', 'shadow-sm');
+            
             document.getElementById('inputLainnya').classList.add('hidden');
             
             let totalTransfer = nilaiDasar + kodeUnik;
             tampilkanBoxTotal(totalTransfer);
         }
 
-        // Ketika Tombol 'Lainnya' di Klik
         function tampilNominalLainnya(btnEl) {
             resetTombol();
-            btnEl.classList.add('bg-emerald-600', 'text-white');
-            btnEl.classList.remove('text-emerald-700');
+            btnEl.classList.add('bg-emerald-600', 'text-white', 'shadow-md', 'scale-105');
+            btnEl.classList.remove('text-emerald-700', 'bg-white', 'shadow-sm');
+            
             document.getElementById('inputLainnya').classList.remove('hidden');
             document.getElementById('nominalCustom').value = ""; 
-            document.getElementById('totalTransferBox').classList.add('hidden');
+            
+            document.getElementById('paymentSection').classList.add('opacity-0');
+            document.getElementById('uploadSection').classList.add('opacity-0');
+            setTimeout(() => {
+                document.getElementById('paymentSection').classList.add('hidden');
+                document.getElementById('uploadSection').classList.add('hidden');
+            }, 500);
+
             document.getElementById('nominalCustom').focus();
         }
 
-        // Ketika Input Manual diketik
         function hitungTotalCustom(nilaiCustom) {
             if(!nilaiCustom || nilaiCustom <= 0) {
-                document.getElementById('totalTransferBox').classList.add('hidden');
+                document.getElementById('paymentSection').classList.add('hidden', 'opacity-0');
+                document.getElementById('uploadSection').classList.add('hidden', 'opacity-0');
                 return;
             }
             let totalTransfer = parseInt(nilaiCustom) + kodeUnik;
@@ -625,12 +671,13 @@
             });
         }
 
-        // SUBMIT FORM
+        // ==========================================
+        // SUBMIT FORM DONASI
+        // ==========================================
         document.getElementById('donasiForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
             const scriptURL = 'https://script.google.com/macros/s/AKfycbz60JdpkR6hx9HO2FcInATh_-7Wy-fsmaTRHg6JWXbPuf0_j0HezDzX5iZx6FXsCaPq/exec'; 
-
             const btnSubmit = document.getElementById('btnSubmit');
             const loadingText = document.getElementById('loadingText');
             const nominal = document.getElementById('nominalValue').value;
